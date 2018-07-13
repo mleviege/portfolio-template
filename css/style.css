@@ -1,9 +1,10 @@
 body,
 html {
+  background-color: teal;
   height: 100%;
   color: #242423;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Cinzel", Arial, sans-serif;
 }
 
 h1 {
@@ -34,12 +35,12 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Cinzel", Arial, sans-serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Cinzel", Arial, sans-serif;
 }
 
 .bar-color{
@@ -68,8 +69,12 @@ p {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/green1.jpeg');
   min-height: 100%;
+}
+
+#about {
+    background-color: teal;
 }
 
 /* Second image (Portfolio) */
@@ -78,9 +83,17 @@ p {
   min-height: 400px;
 }
 
+#contact {
+    background-color: teal;
+}
+
+#portfolio {
+    background-color: teal;
+}
+
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('../img/key1.jpeg');
   min-height: 400px;
 }
 
